@@ -2,7 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --ink:     #0d1117;
+  --ink:     white;
   --ink2:    #161b22;
   --muted:   #8b949e;
   --accent:  #58a6ff;
@@ -11,7 +11,7 @@
   --purple:  #bc8cff;
   --yellow:  #d29922;
   --border:  #30363d;
-  --card:    #161b22;
+  --card:    white; /* #161b22; */
   --radius:  10px;
 }
 
@@ -20,7 +20,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Space Grotesk', sans-serif;
   background: var(--ink);
-  color: #c9d1d9;
+  color: white;
   line-height: 1.65;
   overflow-x: hidden;
 }
